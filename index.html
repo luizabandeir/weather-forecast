@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Previsão do Tempo</title>
+  </head>
+
+  <body>
+    <div class="box">
+      <input class="input-city" placeholder="Digite a cidade" />
+
+      <button onclick="search()">
+        <img
+          class="find"
+          src="https://www.svgrepo.com/show/488200/find.svg"
+          alt="lupa"
+        />
+      </button>
+
+      <div class="content">
+        <h2 class="city">Tempo em Fortaleza</h2>
+
+        <p class="temp">29°C</p>
+
+        <img
+          class="icone"
+          src="https://openweathermap.org/img/wn/04n.png"
+          alt="nuvem"
+        />
+
+        <p class="humidity">Umidade do ar: 70%</p>
+      </div>
+    </div>
+  </body>
+  <script src="scripts.js"></script>
+</html>
