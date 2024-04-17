@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Previsão do Tempo</title>
+    <link type="image/png" sizes="32x32" rel="icon" href="/icons8-parcialmente-nublado-com-chuva-48.png">
   </head>
 
   <body>
@@ -19,17 +20,19 @@
         />
       </button>
 
-      <div class="content">
+      <div class="container">
         <h2 class="city">Tempo em Fortaleza</h2>
 
         <p class="temp">29°C</p>
 
-        <img
-          class="icone"
-          src="https://openweathermap.org/img/wn/04n.png"
-          alt="nuvem"
-        />
-
+        <div class="description-container">
+          <img
+            class="icone"
+            src="https://openweathermap.org/img/wn/04n.png"
+            alt="nuvem"
+          />
+          <p class="description">Nublado</p>
+        </div>  
         <p class="humidity">Umidade do ar: 70%</p>
       </div>
     </div>
