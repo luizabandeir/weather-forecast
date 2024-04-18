@@ -13,14 +13,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-body::after {
-  content: "";
-  display: block;
-  height: 100vh; /* Adicione a mesma altura da janela de visualização */
   overflow: hidden;
 }
+
 
 .box {
   background-color: #000000;
